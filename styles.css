@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.wheel-container {
+    position: relative;
+    cursor: pointer;
+}
+
+.wheel {
+    width: 100%;
+    height: auto;
+}
